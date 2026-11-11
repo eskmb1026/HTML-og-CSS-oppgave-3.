@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Venus · Planetatlas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <strong>Planetatlas</strong>
+    <!-- Lenker med # går til en id på samme side. -->
+    <nav>
+      <a href="#oversikt">Venus</a>
+      <a href="#landskap">Landskap</a>
+      <a href="#romfart">Romfart</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="rad" id="oversikt">
+      <div>
+        <small>DEN ANDRE PLANETEN FRA SOLA</small>
+        <h1>Venus</h1>
+        <p>På morgenhimmelen lyser Venus som en stjerne. Under skyene er det rundt 467 °C, varmt nok til å smelte bly.</p>
+        <a href="#landskap">Se under skydekket ↓</a>
+      </div>
+      <img src="assets/venus.jpg" alt="Lyse skybånd på Venus fotografert av Mariner 10">
+    </section>
+
+    <section class="rad" id="landskap">
+      <figure>
+        <img src="assets/sif-mons.jpg" alt="Radarmodell av vulkanen Sif Mons og lavaslettene rundt">
+        <img class="utsnitt" src="assets/venus-radar.jpg" alt="Fargelagt radarkart over den nordlige halvkulen">
+      </figure>
+      <div>
+        <h2>Under skydekket</h2>
+        <p>Skyer av svovelsyre skjuler landskapet. Med radar kunne romsonden Magellan kartlegge bakken gjennom skyene.</p>
+        <p>Det store bildet viser Sif Mons, en vulkan som er omtrent 300 kilometer bred. Det lille viser et radarkart av Venus.</p>
+      </div>
+    </section>
+
+    <section id="film">
+      <h2>Over vulkanen Idunn Mons</h2>
+      <video controls playsinline preload="none" poster="assets/idunn-mons.jpg" src="assets/idunn-mons.mp4" aria-label="Animasjon av Idunn Mons"></video>
+      <p>NASAs animasjon viser vulkanen slik den ser ut i radardataene. Rødt og oransje markerer de varmeste områdene.</p>
+    </section>
+
+    <section class="rad" id="romfart">
+      <div>
+        <h2>Veien til Venus</h2>
+        <p>I 1962 fløy Mariner 2 forbi Venus. I 1970 sendte Venera 7 de første målingene fra bakken på en annen planet.</p>
+        <p>I 1990 gikk Magellan inn i bane rundt Venus. Radaren kartla omtrent 98 prosent av overflaten.</p>
+      </div>
+      <img src="assets/magellan.jpg" alt="Illustrasjon av Magellan som kartlegger Venus fra rommet">
+    </section>
+  </main>
+
+  <footer id="kilder">
+    <h2>Kilder</h2>
+    <p>Fakta om planeten og romferdene er hentet fra NASA.
+      <a href="https://science.nasa.gov/venus/venus-facts/">Venus</a> ·
+      <a href="https://science.nasa.gov/mission/mariner-2/">Mariner 2</a> ·
+      <a href="https://science.nasa.gov/deep-space-exploration/">Venera 7</a> ·
+      <a href="https://science.nasa.gov/mission/magellan/">Magellan</a>
+    </p>
+    <p>Bilder og film fra NASA/JPL og samarbeidspartnere.
+      <a href="https://science.nasa.gov/photojournal/venus-from-mariner-10/">Skydekket</a> ·
+      <a href="https://science.nasa.gov/photojournal/venus-3-d-perspective-view-of-sif-mons/">Sif Mons</a> ·
+      <a href="https://science.nasa.gov/photojournal/venus-computer-simulated-global-view-of-the-northern-hemisphere/">Radarkart</a> ·
+      <a href="https://science.nasa.gov/photojournal/magellan-orbit-artists-concept/">Romsonden</a> ·
+      <a href="https://science.nasa.gov/resource/venus-is-alive-geologically-speaking/">Film</a> ·
+      <a href="https://science.nasa.gov/photojournal/surface-warmth-on-a-venus-volcano/">Filmplakat</a>
+    </p>
+  </footer>
+</body>
+</html>
